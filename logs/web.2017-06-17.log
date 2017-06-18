@@ -1,0 +1,338 @@
+2017/06/17 07:14:04 [D] [cache.go:45] get cache:缓存不存在:classlist 
+2017/06/17 07:14:04 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|  20.540838ms|   match|[44m GET     [0m /product/1.html   r:/product/:id:int.html
+2017/06/17 07:14:10 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   8.126167ms|   match|[44m GET     [0m /all/   r:/all
+2017/06/17 07:14:12 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   8.913054ms|   match|[44m GET     [0m /news/   r:/news/
+2017/06/17 07:14:13 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   8.227691ms|   match|[44m GET     [0m /help   r:/help
+2017/06/17 07:14:14 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   9.168772ms|   match|[44m GET     [0m /all/   r:/all
+2017/06/17 07:14:15 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   9.990247ms|   match|[44m GET     [0m /     r:/
+2017/06/17 07:14:16 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   7.766464ms|   match|[44m GET     [0m /all/   r:/all
+2017/06/17 07:15:00 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   6.546324ms|   match|[44m GET     [0m /all/   r:/all
+2017/06/17 07:18:06 [I] [main.go:30] 服务已经启动... 
+2017/06/17 07:18:06 [I] [asm_amd64.s:2197] http server Running on http://:8020
+2017/06/17 07:18:12 [D] [cache.go:45] get cache:缓存不存在:classlist 
+2017/06/17 07:18:12 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   7.119112ms|   match|[44m GET     [0m /all/   r:/all
+2017/06/17 07:18:12 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|   1.939777ms|   match|[44m GET     [0m /static/site/css/bootstrap-responsive.min.css
+2017/06/17 07:18:12 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|   7.395431ms|   match|[44m GET     [0m /static/site/css/bootstrap.min.css
+2017/06/17 07:18:12 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|   8.840162ms|   match|[44m GET     [0m /static/site/js/bootstrap.min.js
+2017/06/17 07:18:12 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|   9.584163ms|   match|[44m GET     [0m /static/site/css/site.css
+2017/06/17 07:18:12 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|  23.117622ms|   match|[44m GET     [0m /static/site/js/jquery.min.js
+2017/06/17 07:18:12 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|  25.866108ms|   match|[44m GET     [0m /static/site/js/site.js
+2017/06/17 07:18:13 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|  11.907225ms|   match|[44m GET     [0m /all/   r:/all
+2017/06/17 07:19:32 [I] [main.go:30] 服务已经启动... 
+2017/06/17 07:19:32 [I] [asm_amd64.s:2197] http server Running on http://:8020
+2017/06/17 07:20:00 [D] [cache.go:45] get cache:缓存不存在:classlist 
+2017/06/17 07:20:00 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   9.563882ms|   match|[44m GET     [0m /all/   r:/all
+2017/06/17 07:20:00 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|  10.220799ms|   match|[44m GET     [0m /static/site/css/bootstrap.min.css
+2017/06/17 07:20:00 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|   1.267552ms|   match|[44m GET     [0m /static/site/css/bootstrap-responsive.min.css
+2017/06/17 07:20:00 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|   1.587707ms|   match|[44m GET     [0m /static/site/js/site.js
+2017/06/17 07:20:00 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|   2.555797ms|   match|[44m GET     [0m /static/site/css/site.css
+2017/06/17 07:20:00 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|   3.885071ms|   match|[44m GET     [0m /static/site/js/bootstrap.min.js
+2017/06/17 07:20:00 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|  14.875769ms|   match|[44m GET     [0m /static/site/js/jquery.min.js
+2017/06/17 07:20:01 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   7.726649ms|   match|[44m GET     [0m /all/   r:/all
+2017/06/17 07:36:18 [I] [main.go:30] 服务已经启动... 
+2017/06/17 07:36:18 [I] [asm_amd64.s:2197] http server Running on http://:8020
+2017/06/17 07:36:20 [D] [cache.go:45] get cache:缓存不存在:classlist 
+2017/06/17 07:36:20 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|    8.69791ms|   match|[44m GET     [0m /all/   r:/all
+2017/06/17 07:36:21 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|   8.193804ms|   match|[44m GET     [0m /static/site/css/bootstrap.min.css
+2017/06/17 07:36:21 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|   3.708041ms|   match|[44m GET     [0m /static/site/js/bootstrap.min.js
+2017/06/17 07:36:21 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|   5.094546ms|   match|[44m GET     [0m /static/site/css/site.css
+2017/06/17 07:36:21 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|   6.953604ms|   match|[44m GET     [0m /static/site/css/bootstrap-responsive.min.css
+2017/06/17 07:36:21 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|  19.094582ms|   match|[44m GET     [0m /static/site/js/jquery.min.js
+2017/06/17 07:36:21 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|  20.179675ms|   match|[44m GET     [0m /static/site/js/site.js
+2017/06/17 07:36:22 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   7.860037ms|   match|[44m GET     [0m /all/   r:/all
+2017/06/17 07:36:23 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   9.624639ms|   match|[44m GET     [0m /     r:/
+2017/06/17 07:36:24 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   8.238957ms|   match|[44m GET     [0m /all/   r:/all
+2017/06/17 07:36:25 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|    7.81256ms|   match|[44m GET     [0m /     r:/
+2017/06/17 07:36:27 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|  15.737285ms|   match|[44m GET     [0m /product/1.html   r:/product/:id:int.html
+2017/06/17 07:36:29 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   7.231901ms|   match|[44m GET     [0m /all/   r:/all
+2017/06/17 08:00:36 [I] [main.go:30] 服务已经启动... 
+2017/06/17 08:00:36 [I] [asm_amd64.s:2197] http server Running on http://:8020
+2017/06/17 08:00:41 [D] [cache.go:45] get cache:缓存不存在:classlist 
+2017/06/17 08:00:41 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|    8.03259ms|   match|[44m GET     [0m /all/   r:/all
+2017/06/17 08:00:41 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|   2.941051ms|   match|[44m GET     [0m /static/site/css/bootstrap-responsive.min.css
+2017/06/17 08:00:41 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|   1.329394ms|   match|[44m GET     [0m /static/site/css/site.css
+2017/06/17 08:00:41 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|   5.203841ms|   match|[44m GET     [0m /static/site/js/site.js
+2017/06/17 08:00:41 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|  17.776226ms|   match|[44m GET     [0m /static/site/js/jquery.min.js
+2017/06/17 08:00:41 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|  26.382351ms|   match|[44m GET     [0m /static/site/js/bootstrap.min.js
+2017/06/17 08:00:41 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|  34.537649ms|   match|[44m GET     [0m /static/site/css/bootstrap.min.css
+2017/06/17 08:02:01 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|  11.068156ms|   match|[44m GET     [0m /     r:/
+2017/06/17 08:03:41 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|    7.00197ms|   match|[44m GET     [0m /all/   r:/all
+2017/06/17 08:08:42 [I] [main.go:30] 服务已经启动... 
+2017/06/17 08:08:42 [I] [asm_amd64.s:2197] http server Running on http://:8020
+2017/06/17 08:08:47 [D] [cache.go:45] get cache:缓存不存在:classlist 
+2017/06/17 08:08:48 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   9.136746ms|   match|[44m GET     [0m /all/   r:/all
+2017/06/17 08:08:48 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|   1.763149ms|   match|[44m GET     [0m /static/site/css/bootstrap-responsive.min.css
+2017/06/17 08:08:48 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|   9.944381ms|   match|[44m GET     [0m /static/site/css/bootstrap.min.css
+2017/06/17 08:08:48 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|  12.175911ms|   match|[44m GET     [0m /static/site/js/bootstrap.min.js
+2017/06/17 08:08:48 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|  13.363716ms|   match|[44m GET     [0m /static/site/js/site.js
+2017/06/17 08:08:48 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|  14.922632ms|   match|[44m GET     [0m /static/site/css/site.css
+2017/06/17 08:08:48 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|  24.312014ms|   match|[44m GET     [0m /static/site/js/jquery.min.js
+2017/06/17 08:10:08 [I] [main.go:30] 服务已经启动... 
+2017/06/17 08:10:08 [I] [asm_amd64.s:2197] http server Running on http://:8020
+2017/06/17 08:10:10 [D] [cache.go:45] get cache:缓存不存在:classlist 
+2017/06/17 08:10:10 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   9.677783ms|   match|[44m GET     [0m /all/   r:/all
+2017/06/17 08:10:10 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|   1.661941ms|   match|[44m GET     [0m /static/site/css/site.css
+2017/06/17 08:10:10 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|   1.115393ms|   match|[44m GET     [0m /static/site/js/site.js
+2017/06/17 08:10:10 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|   2.667729ms|   match|[44m GET     [0m /static/site/css/bootstrap-responsive.min.css
+2017/06/17 08:10:10 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|   9.527549ms|   match|[44m GET     [0m /static/site/css/bootstrap.min.css
+2017/06/17 08:10:10 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|   24.26886ms|   match|[44m GET     [0m /static/site/js/jquery.min.js
+2017/06/17 08:10:10 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|  26.231045ms|   match|[44m GET     [0m /static/site/js/bootstrap.min.js
+2017/06/17 08:10:11 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   9.017333ms|   match|[44m GET     [0m /all/   r:/all
+2017/06/17 08:10:12 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   7.243444ms|   match|[44m GET     [0m /help   r:/help
+2017/06/17 08:10:13 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   7.186507ms|   match|[44m GET     [0m /all/   r:/all
+2017/06/17 08:10:14 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   7.644151ms|   match|[44m GET     [0m /news/   r:/news/
+2017/06/17 08:10:15 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   8.140089ms|   match|[44m GET     [0m /all/   r:/all
+2017/06/17 08:10:17 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   9.091673ms|   match|[44m GET     [0m /     r:/
+2017/06/17 08:10:23 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|  11.116352ms|   match|[44m GET     [0m /member/buy   r:/member/buy
+2017/06/17 08:10:23 [D] [server.go:2568] |      127.0.0.1|[43m 404 [0m|  66.683258ms| nomatch|[44m GET     [0m /static/img/weixin_qrcode.jpg
+2017/06/17 08:10:38 [D] [server.go:2568] |      127.0.0.1|[47m 302 [0m|     82.198µs| nomatch|[44m GET     [0m /member/createvip
+2017/06/17 08:10:38 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   6.885351ms|   match|[44m GET     [0m /member/login   r:/member/login
+2017/06/17 08:10:38 [D] [server.go:2568] |      127.0.0.1|[43m 404 [0m|   9.731096ms| nomatch|[44m GET     [0m /static/img/weixin_qrcode.jpg
+2017/06/17 08:10:42 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|     3.7908ms|   match|[46m POST    [0m /member/login   r:/member/login
+2017/06/17 08:10:42 [D] [server.go:2568] |      127.0.0.1|[43m 404 [0m|  14.570772ms| nomatch|[44m GET     [0m /static/img/weixin_qrcode.jpg
+2017/06/17 08:10:44 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   6.919847ms|   match|[44m GET     [0m /member/buy   r:/member/buy
+2017/06/17 08:10:44 [D] [server.go:2568] |      127.0.0.1|[43m 404 [0m| 107.447734ms| nomatch|[44m GET     [0m /static/img/weixin_qrcode.jpg
+2017/06/17 08:10:47 [D] [server.go:2568] |      127.0.0.1|[47m 302 [0m|      49.32µs| nomatch|[46m POST    [0m /member/createvip
+2017/06/17 08:10:47 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   5.305413ms|   match|[44m GET     [0m /member/login   r:/member/login
+2017/06/17 08:10:47 [D] [server.go:2568] |      127.0.0.1|[43m 404 [0m|   82.89028ms| nomatch|[44m GET     [0m /static/img/weixin_qrcode.jpg
+2017/06/17 08:10:49 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   6.670439ms|   match|[44m GET     [0m /member/buy   r:/member/buy
+2017/06/17 08:10:49 [D] [server.go:2568] |      127.0.0.1|[43m 404 [0m|   27.59008ms| nomatch|[44m GET     [0m /static/img/weixin_qrcode.jpg
+2017/06/17 08:10:56 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   6.758923ms|   match|[44m GET     [0m /all/   r:/all
+2017/06/17 08:11:53 [I] [main.go:30] 服务已经启动... 
+2017/06/17 08:11:53 [I] [asm_amd64.s:2197] http server Running on http://:8020
+2017/06/17 08:11:54 [D] [cache.go:45] get cache:缓存不存在:classlist 
+2017/06/17 08:11:54 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   9.353849ms|   match|[44m GET     [0m /all/   r:/all
+2017/06/17 08:11:54 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|   6.534137ms|   match|[44m GET     [0m /static/site/css/bootstrap.min.css
+2017/06/17 08:11:54 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|   2.778385ms|   match|[44m GET     [0m /static/site/css/site.css
+2017/06/17 08:11:54 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|   6.547859ms|   match|[44m GET     [0m /static/site/css/bootstrap-responsive.min.css
+2017/06/17 08:11:54 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|  15.467653ms|   match|[44m GET     [0m /static/site/js/jquery.min.js
+2017/06/17 08:11:54 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|  19.723837ms|   match|[44m GET     [0m /static/site/js/bootstrap.min.js
+2017/06/17 08:11:54 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|  31.168172ms|   match|[44m GET     [0m /static/site/js/site.js
+2017/06/17 08:11:55 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   6.937769ms|   match|[44m GET     [0m /all/   r:/all
+2017/06/17 08:11:56 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|  10.799668ms|   match|[44m GET     [0m /     r:/
+2017/06/17 08:11:57 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   9.200452ms|   match|[44m GET     [0m /all/   r:/all
+2017/06/17 08:12:30 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   6.287001ms|   match|[44m GET     [0m /all/   r:/all
+2017/06/17 08:12:31 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   7.940063ms|   match|[44m GET     [0m /     r:/
+2017/06/17 08:12:33 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|  12.452143ms|   match|[44m GET     [0m /product/1.html   r:/product/:id:int.html
+2017/06/17 08:12:34 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|  13.202638ms|   match|[44m GET     [0m /order/buy/1   r:/order/buy/:id:int/
+2017/06/17 08:13:16 [D] [server.go:2568] |      127.0.0.1|[47m 302 [0m|   5.055907ms|   match|[46m POST    [0m /order/create   r:/order/create
+2017/06/17 08:19:32 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|  77.324711ms|   match|[44m GET     [0m /product/1.html   r:/product/:id:int.html
+2017/06/17 08:19:35 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|  76.577836ms|   match|[44m GET     [0m /product/1.html   r:/product/:id:int.html
+2017/06/17 08:22:01 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|  29.718952ms|   match|[44m GET     [0m /product/1.html   r:/product/:id:int.html
+2017/06/17 08:22:02 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   6.595302ms|   match|[44m GET     [0m /all/   r:/all
+2017/06/17 08:22:04 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   9.495237ms|   match|[44m GET     [0m /     r:/
+2017/06/17 08:22:05 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|  17.129982ms|   match|[44m GET     [0m /all/   r:/all
+2017/06/17 08:23:16 [I] [main.go:30] 服务已经启动... 
+2017/06/17 08:23:16 [I] [asm_amd64.s:2197] http server Running on http://:8020
+2017/06/17 08:25:34 [D] [cache.go:45] get cache:缓存不存在:classlist 
+2017/06/17 08:25:34 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   7.783376ms|   match|[44m GET     [0m /all/   r:/all
+2017/06/17 08:25:34 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|  10.108867ms|   match|[44m GET     [0m /static/site/css/bootstrap.min.css
+2017/06/17 08:25:34 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|   3.236049ms|   match|[44m GET     [0m /static/site/css/site.css
+2017/06/17 08:25:34 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|   2.747931ms|   match|[44m GET     [0m /static/site/css/bootstrap-responsive.min.css
+2017/06/17 08:25:34 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|   10.95664ms|   match|[44m GET     [0m /static/site/js/jquery.min.js
+2017/06/17 08:25:34 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|  12.811064ms|   match|[44m GET     [0m /static/site/js/bootstrap.min.js
+2017/06/17 08:25:34 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|    15.9255ms|   match|[44m GET     [0m /static/site/js/site.js
+2017/06/17 08:25:35 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   6.329871ms|   match|[44m GET     [0m /all/   r:/all
+2017/06/17 08:25:44 [I] [main.go:30] 服务已经启动... 
+2017/06/17 08:25:44 [I] [asm_amd64.s:2197] http server Running on http://:8020
+2017/06/17 08:25:49 [D] [cache.go:45] get cache:缓存不存在:classlist 
+2017/06/17 08:25:49 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   7.817535ms|   match|[44m GET     [0m /all/   r:/all
+2017/06/17 08:25:49 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|   1.766322ms|   match|[44m GET     [0m /static/site/css/site.css
+2017/06/17 08:25:49 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|   6.583232ms|   match|[44m GET     [0m /static/site/css/bootstrap.min.css
+2017/06/17 08:25:49 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|  11.670456ms|   match|[44m GET     [0m /static/site/js/jquery.min.js
+2017/06/17 08:25:49 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|  12.874237ms|   match|[44m GET     [0m /static/site/css/bootstrap-responsive.min.css
+2017/06/17 08:25:49 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|  12.948454ms|   match|[44m GET     [0m /static/site/js/site.js
+2017/06/17 08:25:49 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|  15.371382ms|   match|[44m GET     [0m /static/site/js/bootstrap.min.js
+2017/06/17 08:25:50 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   6.986419ms|   match|[44m GET     [0m /all/   r:/all
+2017/06/17 08:26:44 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   8.082763ms|   match|[44m GET     [0m /all/   r:/all
+2017/06/17 08:26:44 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|    6.70032ms|   match|[44m GET     [0m /static/site/css/bootstrap.min.css
+2017/06/17 08:26:44 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|    558.371µs|   match|[44m GET     [0m /static/site/js/site.js
+2017/06/17 08:26:44 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|   10.49208ms|   match|[44m GET     [0m /static/site/js/jquery.min.js
+2017/06/17 08:26:44 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|  10.008334ms|   match|[44m GET     [0m /static/site/css/bootstrap-responsive.min.css
+2017/06/17 08:26:44 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|    411.446µs|   match|[44m GET     [0m /static/site/css/site.css
+2017/06/17 08:26:44 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|   3.440788ms|   match|[44m GET     [0m /static/site/js/bootstrap.min.js
+2017/06/17 08:26:50 [I] [main.go:30] 服务已经启动... 
+2017/06/17 08:26:50 [I] [asm_amd64.s:2197] http server Running on http://:8020
+2017/06/17 08:26:53 [D] [cache.go:45] get cache:缓存不存在:classlist 
+2017/06/17 08:26:53 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|    7.87485ms|   match|[44m GET     [0m /all/   r:/all
+2017/06/17 08:26:53 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|   7.770273ms|   match|[44m GET     [0m /static/site/css/bootstrap.min.css
+2017/06/17 08:26:53 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|   3.569376ms|   match|[44m GET     [0m /static/site/css/bootstrap-responsive.min.css
+2017/06/17 08:26:53 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|   4.316868ms|   match|[44m GET     [0m /static/site/css/site.css
+2017/06/17 08:26:53 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|  14.083161ms|   match|[44m GET     [0m /static/site/js/jquery.min.js
+2017/06/17 08:26:53 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|  16.343286ms|   match|[44m GET     [0m /static/site/js/bootstrap.min.js
+2017/06/17 08:26:53 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|  16.892991ms|   match|[44m GET     [0m /static/site/js/site.js
+2017/06/17 08:27:40 [I] [main.go:30] 服务已经启动... 
+2017/06/17 08:27:41 [I] [asm_amd64.s:2197] http server Running on http://:8020
+2017/06/17 08:28:35 [D] [cache.go:45] get cache:缓存不存在:classlist 
+2017/06/17 08:28:35 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   7.072431ms|   match|[44m GET     [0m /all/   r:/all
+2017/06/17 08:28:35 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|   7.515353ms|   match|[44m GET     [0m /static/site/css/bootstrap.min.css
+2017/06/17 08:28:35 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|  12.871515ms|   match|[44m GET     [0m /static/site/js/jquery.min.js
+2017/06/17 08:28:35 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|   9.492714ms|   match|[44m GET     [0m /static/site/css/site.css
+2017/06/17 08:28:35 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|  15.138161ms|   match|[44m GET     [0m /static/site/js/site.js
+2017/06/17 08:28:35 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|  11.650844ms|   match|[44m GET     [0m /static/site/js/bootstrap.min.js
+2017/06/17 08:28:35 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|  18.174814ms|   match|[44m GET     [0m /static/site/css/bootstrap-responsive.min.css
+2017/06/17 08:28:37 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   8.065304ms|   match|[44m GET     [0m /all/   r:/all
+2017/06/17 08:28:37 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|   6.815099ms|   match|[44m GET     [0m /static/site/js/jquery.min.js
+2017/06/17 08:28:37 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|  12.092085ms|   match|[44m GET     [0m /static/site/css/bootstrap.min.css
+2017/06/17 08:28:37 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|   12.68021ms|   match|[44m GET     [0m /static/site/css/site.css
+2017/06/17 08:28:37 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|  14.700162ms|   match|[44m GET     [0m /static/site/css/bootstrap-responsive.min.css
+2017/06/17 08:28:37 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|  15.389816ms|   match|[44m GET     [0m /static/site/js/site.js
+2017/06/17 08:28:37 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|  17.225687ms|   match|[44m GET     [0m /static/site/js/bootstrap.min.js
+2017/06/17 08:29:02 [I] [main.go:30] 服务已经启动... 
+2017/06/17 08:29:02 [I] [asm_amd64.s:2197] http server Running on http://:8020
+2017/06/17 08:29:04 [D] [cache.go:45] get cache:缓存不存在:classlist 
+2017/06/17 08:29:04 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|    8.96083ms|   match|[44m GET     [0m /all/   r:/all
+2017/06/17 08:29:04 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|    1.68218ms|   match|[44m GET     [0m /static/site/css/bootstrap-responsive.min.css
+2017/06/17 08:29:04 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|   7.079011ms|   match|[44m GET     [0m /static/site/js/jquery.min.js
+2017/06/17 08:29:04 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|    7.48284ms|   match|[44m GET     [0m /static/site/js/bootstrap.min.js
+2017/06/17 08:29:04 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|   8.066625ms|   match|[44m GET     [0m /static/site/css/site.css
+2017/06/17 08:29:04 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|  15.479596ms|   match|[44m GET     [0m /static/site/css/bootstrap.min.css
+2017/06/17 08:29:04 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|  17.105726ms|   match|[44m GET     [0m /static/img/nopic_260x180.gif
+2017/06/17 08:29:04 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|  17.945209ms|   match|[44m GET     [0m /static/site/js/site.js
+2017/06/17 08:29:05 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|  14.377149ms|   match|[44m GET     [0m /product/1.html   r:/product/:id:int.html
+2017/06/17 08:29:09 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|  13.007603ms|   match|[44m GET     [0m /order/buy/1   r:/order/buy/:id:int/
+2017/06/17 08:29:23 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   10.59814ms|   match|[44m GET     [0m /     r:/
+2017/06/17 08:29:23 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   8.318287ms|   match|[44m GET     [0m /     r:/
+2017/06/17 08:29:25 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|  12.755652ms|   match|[44m GET     [0m /all/   r:/all
+2017/06/17 08:29:26 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|  12.358924ms|   match|[44m GET     [0m /product/1.html   r:/product/:id:int.html
+2017/06/17 08:29:27 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   5.892624ms|   match|[44m GET     [0m /order/buy/1   r:/order/buy/:id:int/
+2017/06/17 08:29:36 [D] [server.go:2568] |      127.0.0.1|[47m 302 [0m|   7.902646ms|   match|[46m POST    [0m /order/create   r:/order/create
+2017/06/17 08:29:46 [D] [server.go:2568] |      127.0.0.1|[47m 302 [0m|  26.617246ms|   match|[46m POST    [0m /order/create   r:/order/create
+2017/06/17 08:29:49 [D] [server.go:2568] |      127.0.0.1|[47m 302 [0m|  26.937454ms|   match|[46m POST    [0m /order/create   r:/order/create
+2017/06/17 08:29:53 [D] [server.go:2568] |      127.0.0.1|[47m 302 [0m|  30.757181ms|   match|[46m POST    [0m /order/create   r:/order/create
+2017/06/17 09:03:58 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   33.89638ms|   match|[44m GET     [0m /product/1.html   r:/product/:id:int.html
+2017/06/17 09:14:15 [I] [main.go:30] 服务已经启动... 
+2017/06/17 09:14:15 [I] [asm_amd64.s:2197] http server Running on http://:8020
+2017/06/17 09:16:09 [I] [main.go:30] 服务已经启动... 
+2017/06/17 09:16:09 [I] [asm_amd64.s:2197] http server Running on http://:8020
+2017/06/17 09:16:16 [I] [main.go:30] 服务已经启动... 
+2017/06/17 09:16:16 [I] [asm_amd64.s:2197] http server Running on http://:8020
+2017/06/17 09:16:31 [I] [main.go:30] 服务已经启动... 
+2017/06/17 09:16:31 [I] [asm_amd64.s:2197] http server Running on http://:8020
+2017/06/17 09:17:20 [I] [main.go:30] 服务已经启动... 
+2017/06/17 09:17:20 [I] [asm_amd64.s:2197] http server Running on http://:8020
+2017/06/17 09:17:39 [I] [main.go:30] 服务已经启动... 
+2017/06/17 09:17:39 [I] [asm_amd64.s:2197] http server Running on http://:8020
+2017/06/17 09:18:14 [D] [cache.go:45] get cache:缓存不存在:classlist 
+2017/06/17 09:18:14 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   44.35542ms|   match|[44m GET     [0m /product/1.html   r:/product/:id:int.html
+2017/06/17 09:18:15 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   13.56664ms|   match|[44m GET     [0m /order/buy/1   r:/order/buy/:id:int/
+2017/06/17 09:18:20 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   7.324661ms|   match|[44m GET     [0m /member/login   r:/member/login
+2017/06/17 09:18:20 [D] [server.go:2568] |      127.0.0.1|[43m 404 [0m|  32.386712ms| nomatch|[44m GET     [0m /static/img/weixin_qrcode.jpg
+2017/06/17 09:18:28 [D] [server.go:2568] |      127.0.0.1|[47m 302 [0m|   4.116097ms|   match|[46m POST    [0m /member/login   r:/member/login
+2017/06/17 09:18:28 [D] [server.go:2568] |      127.0.0.1|[47m 302 [0m|     31.623µs| nomatch|[44m GET     [0m /member/
+2017/06/17 09:18:28 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|  13.642728ms|   match|[44m GET     [0m /member/login   r:/member/login
+2017/06/17 09:18:28 [D] [server.go:2568] |      127.0.0.1|[43m 404 [0m|  12.228178ms| nomatch|[44m GET     [0m /static/img/weixin_qrcode.jpg
+2017/06/17 09:21:38 [I] [main.go:30] 服务已经启动... 
+2017/06/17 09:21:38 [I] [asm_amd64.s:2197] http server Running on http://:8020
+2017/06/17 09:21:46 [D] [cache.go:45] get cache:缓存不存在:classlist 
+2017/06/17 09:21:46 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|  12.255261ms|   match|[44m GET     [0m /member/login   r:/member/login
+2017/06/17 09:21:46 [D] [server.go:2568] |      127.0.0.1|[43m 404 [0m|    6.63926ms| nomatch|[44m GET     [0m /static/img/weixin_qrcode.jpg
+2017/06/17 09:23:22 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|  12.674909ms|   match|[44m GET     [0m /all/   r:/all
+2017/06/17 09:23:23 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|  10.675753ms|   match|[44m GET     [0m /     r:/
+2017/06/17 09:24:23 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|  46.362789ms|   match|[44m GET     [0m /product/1.html   r:/product/:id:int.html
+2017/06/17 09:24:25 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   6.022177ms|   match|[44m GET     [0m /order/buy/1   r:/order/buy/:id:int/
+2017/06/17 09:24:43 [D] [server.go:2568] |      127.0.0.1|[47m 302 [0m|  11.117229ms|   match|[46m POST    [0m /order/create   r:/order/create
+2017/06/17 09:26:54 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|  15.228417ms|   match|[44m GET     [0m /all/   r:/all
+2017/06/17 09:26:56 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   7.349852ms|   match|[44m GET     [0m /member/login   r:/member/login
+2017/06/17 09:26:56 [D] [server.go:2568] |      127.0.0.1|[43m 404 [0m|  18.433611ms| nomatch|[44m GET     [0m /static/img/weixin_qrcode.jpg
+2017/06/17 09:27:07 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|  36.919897ms|   match|[46m POST    [0m /member/login   r:/member/login
+2017/06/17 09:27:07 [D] [server.go:2568] |      127.0.0.1|[43m 404 [0m|  21.798646ms| nomatch|[44m GET     [0m /static/img/weixin_qrcode.jpg
+2017/06/17 09:27:16 [D] [server.go:2568] |      127.0.0.1|[47m 302 [0m|  24.619182ms|   match|[46m POST    [0m /member/login   r:/member/login
+2017/06/17 09:27:16 [D] [server.go:2568] |      127.0.0.1|[47m 302 [0m|     30.963µs| nomatch|[44m GET     [0m /member/
+2017/06/17 09:27:16 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|  27.389695ms|   match|[44m GET     [0m /member/login   r:/member/login
+2017/06/17 09:27:16 [D] [server.go:2568] |      127.0.0.1|[43m 404 [0m|  37.158767ms| nomatch|[44m GET     [0m /static/img/weixin_qrcode.jpg
+2017/06/17 09:28:30 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   5.998223ms|   match|[44m GET     [0m /member/login   r:/member/login
+2017/06/17 09:28:30 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|   9.263965ms|   match|[44m GET     [0m /static/site/css/bootstrap.min.css
+2017/06/17 09:28:30 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|   1.686822ms|   match|[44m GET     [0m /static/site/css/bootstrap-responsive.min.css
+2017/06/17 09:28:30 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|   1.461363ms|   match|[44m GET     [0m /static/site/js/bootstrap.min.js
+2017/06/17 09:28:30 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|   1.002376ms|   match|[44m GET     [0m /static/site/js/site.js
+2017/06/17 09:28:30 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|  12.051415ms|   match|[44m GET     [0m /static/site/js/jquery.min.js
+2017/06/17 09:28:30 [D] [server.go:2568] |      127.0.0.1|[43m 404 [0m|  12.938081ms| nomatch|[44m GET     [0m /static/img/weixin_qrcode.jpg
+2017/06/17 09:28:30 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|  12.364016ms|   match|[44m GET     [0m /static/site/css/site.css
+2017/06/17 09:28:30 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|    115.172µs|   match|[44m GET     [0m /static/site/img/glyphicons-halflings.png
+2017/06/17 09:29:50 [I] [main.go:30] 服务已经启动... 
+2017/06/17 09:29:50 [I] [asm_amd64.s:2197] http server Running on http://:8020
+2017/06/17 09:29:51 [D] [cache.go:45] get cache:缓存不存在:classlist 
+2017/06/17 09:29:51 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   7.908351ms|   match|[44m GET     [0m /member/login   r:/member/login
+2017/06/17 09:29:51 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   1.020923ms|   match|[44m GET     [0m /static/img/weixin_qrcode.jpg
+2017/06/17 09:29:51 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|    838.833µs|   match|[44m GET     [0m /static/site/js/site.js
+2017/06/17 09:29:51 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|   6.423774ms|   match|[44m GET     [0m /static/site/css/bootstrap.min.css
+2017/06/17 09:29:51 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|    6.97063ms|   match|[44m GET     [0m /static/site/css/bootstrap-responsive.min.css
+2017/06/17 09:29:51 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|   8.931845ms|   match|[44m GET     [0m /static/site/css/site.css
+2017/06/17 09:29:51 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|  10.597253ms|   match|[44m GET     [0m /static/site/js/bootstrap.min.js
+2017/06/17 09:29:51 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|  28.522406ms|   match|[44m GET     [0m /static/site/js/jquery.min.js
+2017/06/17 09:29:51 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|   7.748632ms|   match|[44m GET     [0m /static/site/img/glyphicons-halflings.png
+2017/06/17 09:30:17 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   8.154615ms|   match|[44m GET     [0m /all/   r:/all
+2017/06/17 09:30:18 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   12.58821ms|   match|[44m GET     [0m /product/1.html   r:/product/:id:int.html
+2017/06/17 09:30:19 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|  15.179683ms|   match|[44m GET     [0m /order/buy/1   r:/order/buy/:id:int/
+2017/06/17 09:30:20 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|  15.268908ms|   match|[44m GET     [0m /     r:/
+2017/06/17 09:30:21 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   9.858907ms|   match|[44m GET     [0m /     r:/
+2017/06/17 09:30:24 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|  12.319827ms|   match|[44m GET     [0m /product/1.html   r:/product/:id:int.html
+2017/06/17 09:30:25 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   7.567849ms|   match|[44m GET     [0m /     r:/
+2017/06/17 09:30:26 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|  10.807885ms|   match|[44m GET     [0m /all/   r:/all
+2017/06/17 09:30:27 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   7.637886ms|   match|[44m GET     [0m /help   r:/help
+2017/06/17 09:30:28 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   10.17295ms|   match|[44m GET     [0m /news/   r:/news/
+2017/06/17 09:30:28 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   7.690871ms|   match|[44m GET     [0m /help   r:/help
+2017/06/17 09:30:57 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   9.857408ms|   match|[44m GET     [0m /all/   r:/all
+2017/06/17 09:30:58 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   7.302357ms|   match|[44m GET     [0m /all/   r:/all
+2017/06/17 09:31:00 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   7.096881ms|   match|[44m GET     [0m /category/1   r:/category/:cid:int/
+2017/06/17 09:31:03 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   8.317865ms|   match|[44m GET     [0m /member/buy   r:/member/buy
+2017/06/17 09:36:55 [I] [main.go:30] 服务已经启动... 
+2017/06/17 09:36:55 [I] [asm_amd64.s:2197] http server Running on http://:8020
+2017/06/17 09:37:44 [I] [main.go:30] 服务已经启动... 
+2017/06/17 09:37:44 [I] [asm_amd64.s:2197] http server Running on http://:8020
+2017/06/17 09:46:26 [I] [main.go:30] 服务已经启动... 
+2017/06/17 09:46:26 [I] [asm_amd64.s:2197] http server Running on http://:8020
+2017/06/17 09:50:10 [D] [cache.go:45] get cache:缓存不存在:classlist 
+2017/06/17 09:50:10 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|  48.654259ms|   match|[44m GET     [0m /member/buy   r:/member/buy
+2017/06/17 09:50:10 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|   4.222293ms|   match|[44m GET     [0m /static/site/css/bootstrap-responsive.min.css
+2017/06/17 09:50:10 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|  10.351133ms|   match|[44m GET     [0m /static/site/js/jquery.min.js
+2017/06/17 09:50:10 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|  15.117438ms|   match|[44m GET     [0m /static/site/css/bootstrap.min.css
+2017/06/17 09:50:10 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|  16.087954ms|   match|[44m GET     [0m /static/img/weixin_qrcode.jpg
+2017/06/17 09:50:10 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|  16.770377ms|   match|[44m GET     [0m /static/site/js/site.js
+2017/06/17 09:50:10 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|  17.394061ms|   match|[44m GET     [0m /static/site/css/site.css
+2017/06/17 09:50:10 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|  19.702238ms|   match|[44m GET     [0m /static/site/js/bootstrap.min.js
+2017/06/17 09:50:10 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|     380.41µs|   match|[44m GET     [0m /static/site/img/glyphicons-halflings.png
+2017/06/17 09:51:15 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|  40.514582ms|   match|[44m GET     [0m /all/   r:/all
+2017/06/17 09:51:16 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|  28.911225ms|   match|[44m GET     [0m /     r:/
+2017/06/17 09:51:20 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|  11.478041ms|   match|[44m GET     [0m /all/   r:/all
+2017/06/17 09:51:32 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|  10.827406ms|   match|[44m GET     [0m /all/   r:/all
+2017/06/17 09:51:34 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   9.204195ms|   match|[44m GET     [0m /     r:/
+2017/06/17 09:51:34 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|  33.994157ms|   match|[44m GET     [0m /all/   r:/all
+2017/06/17 09:51:35 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|  47.390603ms|   match|[44m GET     [0m /product/1.html   r:/product/:id:int.html
+2017/06/17 09:51:36 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|  38.116485ms|   match|[44m GET     [0m /news/   r:/news/
+2017/06/17 09:51:38 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|  32.827331ms|   match|[44m GET     [0m /all/   r:/all
+2017/06/17 09:51:38 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|  35.325708ms|   match|[44m GET     [0m /news/   r:/news/
+2017/06/17 09:52:12 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|  24.492437ms|   match|[44m GET     [0m /news/   r:/news/
+2017/06/17 09:52:12 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|   1.420713ms|   match|[44m GET     [0m /static/site/css/bootstrap-responsive.min.css
+2017/06/17 09:52:12 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|    838.384µs|   match|[44m GET     [0m /static/site/css/site.css
+2017/06/17 09:52:12 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|    7.28907ms|   match|[44m GET     [0m /static/site/js/jquery.min.js
+2017/06/17 09:52:12 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|  13.398854ms|   match|[44m GET     [0m /static/site/css/bootstrap.min.css
+2017/06/17 09:52:12 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|  14.080833ms|   match|[44m GET     [0m /static/site/js/site.js
+2017/06/17 09:52:12 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|  16.275262ms|   match|[44m GET     [0m /static/site/js/bootstrap.min.js
+2017/06/17 09:52:14 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   7.176344ms|   match|[44m GET     [0m /news/   r:/news/
+2017/06/17 09:52:15 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|  13.776205ms|   match|[44m GET     [0m /all/   r:/all
+2017/06/17 09:52:15 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   8.552443ms|   match|[44m GET     [0m /news/   r:/news/
+2017/06/17 09:52:39 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|  20.977261ms|   match|[44m GET     [0m /news/   r:/news/
+2017/06/17 09:52:40 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   39.90851ms|   match|[44m GET     [0m /all/   r:/all
+2017/06/17 09:52:50 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|  12.991868ms|   match|[44m GET     [0m /all/   r:/all
+2017/06/17 09:54:29 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   8.184223ms|   match|[44m GET     [0m /all/   r:/all
+2017/06/17 09:54:30 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|  10.939392ms|   match|[44m GET     [0m /product/1.html   r:/product/:id:int.html
+2017/06/17 09:54:33 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|  23.289298ms|   match|[44m GET     [0m /news/   r:/news/
+2017/06/17 09:54:34 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   7.377523ms|   match|[44m GET     [0m /category/1   r:/category/:cid:int/
+2017/06/17 09:54:35 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   7.459111ms|   match|[44m GET     [0m /all/   r:/all
+2017/06/17 09:54:36 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   21.57861ms|   match|[44m GET     [0m /     r:/
+2017/06/17 18:14:19 [D] [cache.go:45] get cache:缓存不存在:classlist 
+2017/06/17 18:14:19 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|  23.307141ms|   match|[44m GET     [0m /product/1.html   r:/product/:id:int.html
+2017/06/17 18:14:20 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|  17.976978ms|   match|[44m GET     [0m /all/   r:/all
+2017/06/17 18:14:21 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|    10.9719ms|   match|[44m GET     [0m /product/1.html   r:/product/:id:int.html
+2017/06/17 18:14:22 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   9.707339ms|   match|[44m GET     [0m /order/buy/1   r:/order/buy/:id:int/
+2017/06/17 18:15:21 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|  45.030423ms|   match|[44m GET     [0m /product/1.html   r:/product/:id:int.html
+2017/06/17 18:31:33 [I] [main.go:30] 服务已经启动... 
+2017/06/17 18:31:33 [I] [asm_amd64.s:2197] http server Running on http://:8020
+2017/06/17 18:33:19 [I] [main.go:30] 服务已经启动... 
+2017/06/17 18:33:19 [I] [asm_amd64.s:2197] http server Running on http://:8020
+2017/06/17 18:34:20 [I] [main.go:30] 服务已经启动... 
+2017/06/17 18:34:20 [I] [asm_amd64.s:2197] http server Running on http://:8020
+2017/06/17 18:35:42 [I] [main.go:30] 服务已经启动... 
+2017/06/17 18:35:42 [I] [asm_amd64.s:2197] http server Running on http://:8020

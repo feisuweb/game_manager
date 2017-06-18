@@ -1,0 +1,250 @@
+2017/06/18 00:22:31 [D] [cache.go:45] get cache:缓存不存在:classlist 
+2017/06/18 00:22:31 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|  17.312834ms|   match|[44m GET     [0m /     r:/
+2017/06/18 00:22:31 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|    330.877µs|   match|[44m GET     [0m /static/img/nopic_260x180.gif
+2017/06/18 00:22:31 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|    928.389µs|   match|[44m GET     [0m /static/site/js/site.js
+2017/06/18 18:03:51 [I] [main.go:18] 服务已经启动... 
+2017/06/18 18:03:51 [E] [template.go:174] parse template err: _index.html template: _index.html:5: function "GetSmallPhoto" not defined
+2017/06/18 18:03:51 [E] [template.go:174] parse template err: _sale.html template: _sale.html:58: function "GetPhoto" not defined
+2017/06/18 18:03:51 [E] [template.go:174] parse template err: _search.html template: _search.html:28: function "GetPhoto" not defined
+2017/06/18 18:03:51 [E] [template.go:174] parse template err: layout/_member_layout.html template: layout/_member_layout.html:37: function "GetProductCount" not defined
+2017/06/18 18:03:51 [E] [template.go:174] parse template err: layout/_site_layout.html template: layout/_site_layout.html:37: function "GetProductCount" not defined
+2017/06/18 18:03:51 [E] [template.go:174] parse template err: member/_browse_history.html template: member/_browse_history.html:16: function "GetProductClassName" not defined
+2017/06/18 18:03:51 [E] [template.go:174] parse template err: member/_buy.html template: member/_buy.html:103: function "ReplaceMobile" not defined
+2017/06/18 18:03:51 [E] [template.go:174] parse template err: member/_order_list.html template: member/_order_list.html:41: function "GetOrderStatus" not defined
+2017/06/18 18:03:51 [E] [template.go:174] parse template err: member/_profile.html template: member/_profile.html:17: function "GetMemberTypeName" not defined
+2017/06/18 18:03:51 [E] [template.go:174] parse template err: member/_recharge.html template: member/_recharge.html:77: function "ReplaceMobile" not defined
+2017/06/18 18:03:51 [E] [template.go:174] parse template err: member/_upgrade.html template: member/_upgrade.html:85: function "ReplaceMobile" not defined
+2017/06/18 18:03:51 [E] [template.go:174] parse template err: product/_product_all_list.html template: product/_product_all_list.html:9: function "GetSmallPhoto" not defined
+2017/06/18 18:03:51 [E] [template.go:174] parse template err: product/_product_detail.html template: product/_product_detail.html:97: function "GetProductClassName" not defined
+2017/06/18 18:03:51 [E] [template.go:174] parse template err: product/_product_hotlist.html template: product/_product_hotlist.html:9: function "GetSmallPhoto" not defined
+2017/06/18 18:03:51 [E] [template.go:174] parse template err: product/_product_list.html template: product/_product_list.html:9: function "GetSmallPhoto" not defined
+2017/06/18 18:03:51 [E] [template.go:174] parse template err: product/_product_new.html template: product/_product_new.html:9: function "GetSmallPhoto" not defined
+2017/06/18 18:03:51 [E] [template.go:174] parse template err: product/_product_recommend_list.html template: product/_product_recommend_list.html:9: function "GetSmallPhoto" not defined
+2017/06/18 18:03:51 [I] [asm_amd64.s:1998] http server Running on http://:8060
+2017/06/18 18:06:39 [I] [main.go:18] 服务已经启动... 
+2017/06/18 18:06:40 [E] [template.go:174] parse template err: _index.html template: _index.html:5: function "GetSmallPhoto" not defined
+2017/06/18 18:06:40 [E] [template.go:174] parse template err: layout/_default_layout.html template: layout/_default_layout.html:37: function "GetProductCount" not defined
+2017/06/18 18:06:40 [I] [asm_amd64.s:1998] http server Running on http://:8060
+2017/06/18 18:07:39 [I] [main.go:18] 服务已经启动... 
+2017/06/18 18:07:40 [E] [template.go:174] parse template err: layout/_default_layout.html template: layout/_default_layout.html:37: function "GetProductCount" not defined
+2017/06/18 18:07:40 [E] [template.go:174] parse template err: _index.html template: _index.html:5: function "GetSmallPhoto" not defined
+2017/06/18 18:07:40 [I] [asm_amd64.s:1998] http server Running on http://:8088
+2017/06/18 18:08:18 [I] [main.go:18] 服务已经启动... 
+2017/06/18 18:08:19 [I] [asm_amd64.s:1998] http server Running on http://:8088
+2017/06/18 18:24:05 [I] [main.go:18] 服务已经启动... 
+2017/06/18 18:24:06 [I] [asm_amd64.s:1998] http server Running on http://:8088
+2017/06/18 18:24:28 [I] [main.go:18] 服务已经启动... 
+2017/06/18 18:24:28 [I] [asm_amd64.s:1998] http server Running on http://:8088
+2017/06/18 18:49:57 [I] [main.go:18] 服务已经启动... 
+2017/06/18 18:49:57 [I] [asm_amd64.s:1998] http server Running on http://:8088
+2017/06/18 18:51:09 [D] [controller.go:256] template Execute err: template: _error.html:5:12: executing "_error.html" at <.content>: invalid value; expected string
+2017/06/18 18:51:09 [C] [asm_amd64.s:472] the request url is  /static/css/weui.css
+2017/06/18 18:51:09 [C] [asm_amd64.s:472] Handler crashed with error template: _error.html:5:12: executing "_error.html" at <.content>: invalid value; expected string
+2017/06/18 18:51:09 [C] [asm_amd64.s:472] c:/go/src/runtime/asm_amd64.s:472
+2017/06/18 18:51:09 [C] [asm_amd64.s:472] c:/go/src/runtime/panic.go:426
+2017/06/18 18:51:09 [C] [asm_amd64.s:472] E:/golang/src/github.com/astaxie/beego/error.go:469
+2017/06/18 18:51:09 [C] [asm_amd64.s:472] E:/golang/src/github.com/astaxie/beego/error.go:432
+2017/06/18 18:51:09 [C] [asm_amd64.s:472] E:/golang/src/github.com/astaxie/beego/router.go:716
+2017/06/18 18:51:09 [C] [asm_amd64.s:472] C:/Go/src/net/http/server.go:2017
+2017/06/18 18:51:09 [C] [asm_amd64.s:472] C:/Go/src/net/http/server.go:1464
+2017/06/18 18:51:09 [C] [asm_amd64.s:472] c:/go/src/runtime/asm_amd64.s:1998
+2017/06/18 18:51:09 [D] [controller.go:256] template Execute err: template: _error.html:5:12: executing "_error.html" at <.content>: invalid value; expected string
+2017/06/18 18:51:09 [C] [asm_amd64.s:472] the request url is  /static/css/example.css
+2017/06/18 18:51:09 [C] [asm_amd64.s:472] Handler crashed with error template: _error.html:5:12: executing "_error.html" at <.content>: invalid value; expected string
+2017/06/18 18:51:09 [C] [asm_amd64.s:472] c:/go/src/runtime/asm_amd64.s:472
+2017/06/18 18:51:09 [C] [asm_amd64.s:472] c:/go/src/runtime/panic.go:426
+2017/06/18 18:51:09 [C] [asm_amd64.s:472] E:/golang/src/github.com/astaxie/beego/error.go:469
+2017/06/18 18:51:09 [C] [asm_amd64.s:472] E:/golang/src/github.com/astaxie/beego/error.go:432
+2017/06/18 18:51:09 [C] [asm_amd64.s:472] E:/golang/src/github.com/astaxie/beego/router.go:716
+2017/06/18 18:51:09 [C] [asm_amd64.s:472] C:/Go/src/net/http/server.go:2017
+2017/06/18 18:51:09 [C] [asm_amd64.s:472] C:/Go/src/net/http/server.go:1464
+2017/06/18 18:51:09 [C] [asm_amd64.s:472] c:/go/src/runtime/asm_amd64.s:1998
+2017/06/18 18:51:09 [D] [controller.go:256] template Execute err: template: _error.html:5:12: executing "_error.html" at <.content>: invalid value; expected string
+2017/06/18 18:51:09 [C] [asm_amd64.s:472] the request url is  /static/js/example.js
+2017/06/18 18:51:09 [C] [asm_amd64.s:472] Handler crashed with error template: _error.html:5:12: executing "_error.html" at <.content>: invalid value; expected string
+2017/06/18 18:51:09 [C] [asm_amd64.s:472] c:/go/src/runtime/asm_amd64.s:472
+2017/06/18 18:51:09 [C] [asm_amd64.s:472] c:/go/src/runtime/panic.go:426
+2017/06/18 18:51:09 [C] [asm_amd64.s:472] E:/golang/src/github.com/astaxie/beego/error.go:469
+2017/06/18 18:51:09 [C] [asm_amd64.s:472] E:/golang/src/github.com/astaxie/beego/error.go:432
+2017/06/18 18:51:09 [C] [asm_amd64.s:472] E:/golang/src/github.com/astaxie/beego/router.go:716
+2017/06/18 18:51:09 [C] [asm_amd64.s:472] C:/Go/src/net/http/server.go:2017
+2017/06/18 18:51:09 [C] [asm_amd64.s:472] C:/Go/src/net/http/server.go:1464
+2017/06/18 18:51:09 [C] [asm_amd64.s:472] c:/go/src/runtime/asm_amd64.s:1998
+2017/06/18 18:51:09 [D] [controller.go:256] template Execute err: template: _error.html:5:12: executing "_error.html" at <.content>: invalid value; expected string
+2017/06/18 18:51:09 [C] [asm_amd64.s:472] the request url is  /static/js/zepto.min.js
+2017/06/18 18:51:09 [C] [asm_amd64.s:472] Handler crashed with error template: _error.html:5:12: executing "_error.html" at <.content>: invalid value; expected string
+2017/06/18 18:51:09 [C] [asm_amd64.s:472] c:/go/src/runtime/asm_amd64.s:472
+2017/06/18 18:51:09 [C] [asm_amd64.s:472] c:/go/src/runtime/panic.go:426
+2017/06/18 18:51:09 [C] [asm_amd64.s:472] E:/golang/src/github.com/astaxie/beego/error.go:469
+2017/06/18 18:51:09 [C] [asm_amd64.s:472] E:/golang/src/github.com/astaxie/beego/error.go:432
+2017/06/18 18:51:09 [C] [asm_amd64.s:472] E:/golang/src/github.com/astaxie/beego/router.go:716
+2017/06/18 18:51:09 [C] [asm_amd64.s:472] C:/Go/src/net/http/server.go:2017
+2017/06/18 18:51:09 [C] [asm_amd64.s:472] C:/Go/src/net/http/server.go:1464
+2017/06/18 18:51:09 [C] [asm_amd64.s:472] c:/go/src/runtime/asm_amd64.s:1998
+2017/06/18 18:51:09 [D] [controller.go:256] template Execute err: template: _error.html:5:12: executing "_error.html" at <.content>: invalid value; expected string
+2017/06/18 18:51:09 [C] [asm_amd64.s:472] the request url is  /static/js/example.js
+2017/06/18 18:51:09 [C] [asm_amd64.s:472] Handler crashed with error template: _error.html:5:12: executing "_error.html" at <.content>: invalid value; expected string
+2017/06/18 18:51:09 [C] [asm_amd64.s:472] c:/go/src/runtime/asm_amd64.s:472
+2017/06/18 18:51:09 [C] [asm_amd64.s:472] c:/go/src/runtime/panic.go:426
+2017/06/18 18:51:09 [C] [asm_amd64.s:472] E:/golang/src/github.com/astaxie/beego/error.go:469
+2017/06/18 18:51:09 [C] [asm_amd64.s:472] E:/golang/src/github.com/astaxie/beego/error.go:432
+2017/06/18 18:51:09 [C] [asm_amd64.s:472] E:/golang/src/github.com/astaxie/beego/router.go:716
+2017/06/18 18:51:09 [C] [asm_amd64.s:472] C:/Go/src/net/http/server.go:2017
+2017/06/18 18:51:09 [C] [asm_amd64.s:472] C:/Go/src/net/http/server.go:1464
+2017/06/18 18:51:09 [C] [asm_amd64.s:472] c:/go/src/runtime/asm_amd64.s:1998
+2017/06/18 18:51:09 [D] [controller.go:256] template Execute err: template: _error.html:5:12: executing "_error.html" at <.content>: invalid value; expected string
+2017/06/18 18:51:09 [C] [asm_amd64.s:472] the request url is  /favicon.ico
+2017/06/18 18:51:09 [C] [asm_amd64.s:472] Handler crashed with error template: _error.html:5:12: executing "_error.html" at <.content>: invalid value; expected string
+2017/06/18 18:51:09 [C] [asm_amd64.s:472] c:/go/src/runtime/asm_amd64.s:472
+2017/06/18 18:51:09 [C] [asm_amd64.s:472] c:/go/src/runtime/panic.go:426
+2017/06/18 18:51:09 [C] [asm_amd64.s:472] E:/golang/src/github.com/astaxie/beego/error.go:469
+2017/06/18 18:51:09 [C] [asm_amd64.s:472] E:/golang/src/github.com/astaxie/beego/error.go:432
+2017/06/18 18:51:09 [C] [asm_amd64.s:472] E:/golang/src/github.com/astaxie/beego/router.go:716
+2017/06/18 18:51:09 [C] [asm_amd64.s:472] C:/Go/src/net/http/server.go:2017
+2017/06/18 18:51:09 [C] [asm_amd64.s:472] C:/Go/src/net/http/server.go:1464
+2017/06/18 18:51:09 [C] [asm_amd64.s:472] c:/go/src/runtime/asm_amd64.s:1998
+2017/06/18 18:51:11 [D] [controller.go:256] template Execute err: template: _error.html:5:12: executing "_error.html" at <.content>: invalid value; expected string
+2017/06/18 18:51:11 [C] [asm_amd64.s:472] the request url is  /static/css/weui.css
+2017/06/18 18:51:11 [C] [asm_amd64.s:472] Handler crashed with error template: _error.html:5:12: executing "_error.html" at <.content>: invalid value; expected string
+2017/06/18 18:51:11 [C] [asm_amd64.s:472] c:/go/src/runtime/asm_amd64.s:472
+2017/06/18 18:51:11 [C] [asm_amd64.s:472] c:/go/src/runtime/panic.go:426
+2017/06/18 18:51:11 [C] [asm_amd64.s:472] E:/golang/src/github.com/astaxie/beego/error.go:469
+2017/06/18 18:51:11 [C] [asm_amd64.s:472] E:/golang/src/github.com/astaxie/beego/error.go:432
+2017/06/18 18:51:11 [C] [asm_amd64.s:472] E:/golang/src/github.com/astaxie/beego/router.go:716
+2017/06/18 18:51:11 [C] [asm_amd64.s:472] C:/Go/src/net/http/server.go:2017
+2017/06/18 18:51:11 [C] [asm_amd64.s:472] C:/Go/src/net/http/server.go:1464
+2017/06/18 18:51:11 [C] [asm_amd64.s:472] c:/go/src/runtime/asm_amd64.s:1998
+2017/06/18 18:51:11 [D] [controller.go:256] template Execute err: template: _error.html:5:12: executing "_error.html" at <.content>: invalid value; expected string
+2017/06/18 18:51:11 [C] [asm_amd64.s:472] the request url is  /static/js/example.js
+2017/06/18 18:51:11 [C] [asm_amd64.s:472] Handler crashed with error template: _error.html:5:12: executing "_error.html" at <.content>: invalid value; expected string
+2017/06/18 18:51:11 [C] [asm_amd64.s:472] c:/go/src/runtime/asm_amd64.s:472
+2017/06/18 18:51:11 [C] [asm_amd64.s:472] c:/go/src/runtime/panic.go:426
+2017/06/18 18:51:11 [C] [asm_amd64.s:472] E:/golang/src/github.com/astaxie/beego/error.go:469
+2017/06/18 18:51:11 [C] [asm_amd64.s:472] E:/golang/src/github.com/astaxie/beego/error.go:432
+2017/06/18 18:51:11 [C] [asm_amd64.s:472] E:/golang/src/github.com/astaxie/beego/router.go:716
+2017/06/18 18:51:11 [C] [asm_amd64.s:472] C:/Go/src/net/http/server.go:2017
+2017/06/18 18:51:11 [C] [asm_amd64.s:472] C:/Go/src/net/http/server.go:1464
+2017/06/18 18:51:11 [C] [asm_amd64.s:472] c:/go/src/runtime/asm_amd64.s:1998
+2017/06/18 18:51:11 [D] [controller.go:256] template Execute err: template: _error.html:5:12: executing "_error.html" at <.content>: invalid value; expected string
+2017/06/18 18:51:11 [C] [asm_amd64.s:472] the request url is  /static/js/zepto.min.js
+2017/06/18 18:51:11 [C] [asm_amd64.s:472] Handler crashed with error template: _error.html:5:12: executing "_error.html" at <.content>: invalid value; expected string
+2017/06/18 18:51:11 [C] [asm_amd64.s:472] c:/go/src/runtime/asm_amd64.s:472
+2017/06/18 18:51:11 [C] [asm_amd64.s:472] c:/go/src/runtime/panic.go:426
+2017/06/18 18:51:11 [C] [asm_amd64.s:472] E:/golang/src/github.com/astaxie/beego/error.go:469
+2017/06/18 18:51:11 [C] [asm_amd64.s:472] E:/golang/src/github.com/astaxie/beego/error.go:432
+2017/06/18 18:51:11 [C] [asm_amd64.s:472] E:/golang/src/github.com/astaxie/beego/router.go:716
+2017/06/18 18:51:11 [C] [asm_amd64.s:472] C:/Go/src/net/http/server.go:2017
+2017/06/18 18:51:11 [C] [asm_amd64.s:472] C:/Go/src/net/http/server.go:1464
+2017/06/18 18:51:11 [C] [asm_amd64.s:472] c:/go/src/runtime/asm_amd64.s:1998
+2017/06/18 18:51:11 [D] [controller.go:256] template Execute err: template: _error.html:5:12: executing "_error.html" at <.content>: invalid value; expected string
+2017/06/18 18:51:11 [C] [asm_amd64.s:472] the request url is  /static/css/example.css
+2017/06/18 18:51:11 [C] [asm_amd64.s:472] Handler crashed with error template: _error.html:5:12: executing "_error.html" at <.content>: invalid value; expected string
+2017/06/18 18:51:11 [C] [asm_amd64.s:472] c:/go/src/runtime/asm_amd64.s:472
+2017/06/18 18:51:11 [C] [asm_amd64.s:472] c:/go/src/runtime/panic.go:426
+2017/06/18 18:51:11 [C] [asm_amd64.s:472] E:/golang/src/github.com/astaxie/beego/error.go:469
+2017/06/18 18:51:11 [C] [asm_amd64.s:472] E:/golang/src/github.com/astaxie/beego/error.go:432
+2017/06/18 18:51:11 [C] [asm_amd64.s:472] E:/golang/src/github.com/astaxie/beego/router.go:716
+2017/06/18 18:51:11 [C] [asm_amd64.s:472] C:/Go/src/net/http/server.go:2017
+2017/06/18 18:51:11 [C] [asm_amd64.s:472] C:/Go/src/net/http/server.go:1464
+2017/06/18 18:51:11 [C] [asm_amd64.s:472] c:/go/src/runtime/asm_amd64.s:1998
+2017/06/18 18:51:11 [D] [controller.go:256] template Execute err: template: _error.html:5:12: executing "_error.html" at <.content>: invalid value; expected string
+2017/06/18 18:51:11 [C] [asm_amd64.s:472] the request url is  /static/js/example.js
+2017/06/18 18:51:11 [C] [asm_amd64.s:472] Handler crashed with error template: _error.html:5:12: executing "_error.html" at <.content>: invalid value; expected string
+2017/06/18 18:51:11 [C] [asm_amd64.s:472] c:/go/src/runtime/asm_amd64.s:472
+2017/06/18 18:51:11 [C] [asm_amd64.s:472] c:/go/src/runtime/panic.go:426
+2017/06/18 18:51:11 [C] [asm_amd64.s:472] E:/golang/src/github.com/astaxie/beego/error.go:469
+2017/06/18 18:51:11 [C] [asm_amd64.s:472] E:/golang/src/github.com/astaxie/beego/error.go:432
+2017/06/18 18:51:11 [C] [asm_amd64.s:472] E:/golang/src/github.com/astaxie/beego/router.go:716
+2017/06/18 18:51:11 [C] [asm_amd64.s:472] C:/Go/src/net/http/server.go:2017
+2017/06/18 18:51:11 [C] [asm_amd64.s:472] C:/Go/src/net/http/server.go:1464
+2017/06/18 18:51:11 [C] [asm_amd64.s:472] c:/go/src/runtime/asm_amd64.s:1998
+2017/06/18 21:25:56 [I] [main.go:18] 服务已经启动... 
+2017/06/18 21:25:56 [I] [asm_amd64.s:1998] http server Running on http://:8088
+2017/06/18 21:25:58 [D] [controller.go:256] template Execute err: template: _error.html:5:12: executing "_error.html" at <.content>: invalid value; expected string
+2017/06/18 21:25:58 [C] [asm_amd64.s:472] the request url is  /static/css/weui.css
+2017/06/18 21:25:58 [C] [asm_amd64.s:472] Handler crashed with error template: _error.html:5:12: executing "_error.html" at <.content>: invalid value; expected string
+2017/06/18 21:25:58 [C] [asm_amd64.s:472] c:/go/src/runtime/asm_amd64.s:472
+2017/06/18 21:25:58 [C] [asm_amd64.s:472] c:/go/src/runtime/panic.go:426
+2017/06/18 21:25:58 [C] [asm_amd64.s:472] E:/golang/src/github.com/astaxie/beego/error.go:469
+2017/06/18 21:25:58 [C] [asm_amd64.s:472] E:/golang/src/github.com/astaxie/beego/error.go:432
+2017/06/18 21:25:58 [C] [asm_amd64.s:472] E:/golang/src/github.com/astaxie/beego/router.go:716
+2017/06/18 21:25:58 [C] [asm_amd64.s:472] C:/Go/src/net/http/server.go:2017
+2017/06/18 21:25:58 [C] [asm_amd64.s:472] C:/Go/src/net/http/server.go:1464
+2017/06/18 21:25:58 [C] [asm_amd64.s:472] c:/go/src/runtime/asm_amd64.s:1998
+2017/06/18 21:25:58 [D] [controller.go:256] template Execute err: template: _error.html:5:12: executing "_error.html" at <.content>: invalid value; expected string
+2017/06/18 21:25:58 [C] [asm_amd64.s:472] the request url is  /static/js/example.js
+2017/06/18 21:25:58 [C] [asm_amd64.s:472] Handler crashed with error template: _error.html:5:12: executing "_error.html" at <.content>: invalid value; expected string
+2017/06/18 21:25:58 [C] [asm_amd64.s:472] c:/go/src/runtime/asm_amd64.s:472
+2017/06/18 21:25:58 [C] [asm_amd64.s:472] c:/go/src/runtime/panic.go:426
+2017/06/18 21:25:58 [C] [asm_amd64.s:472] E:/golang/src/github.com/astaxie/beego/error.go:469
+2017/06/18 21:25:58 [C] [asm_amd64.s:472] E:/golang/src/github.com/astaxie/beego/error.go:432
+2017/06/18 21:25:58 [C] [asm_amd64.s:472] E:/golang/src/github.com/astaxie/beego/router.go:716
+2017/06/18 21:25:58 [C] [asm_amd64.s:472] C:/Go/src/net/http/server.go:2017
+2017/06/18 21:25:58 [C] [asm_amd64.s:472] C:/Go/src/net/http/server.go:1464
+2017/06/18 21:25:58 [C] [asm_amd64.s:472] c:/go/src/runtime/asm_amd64.s:1998
+2017/06/18 21:25:58 [D] [controller.go:256] template Execute err: template: _error.html:5:12: executing "_error.html" at <.content>: invalid value; expected string
+2017/06/18 21:25:58 [C] [asm_amd64.s:472] the request url is  /static/js/zepto.min.js
+2017/06/18 21:25:58 [C] [asm_amd64.s:472] Handler crashed with error template: _error.html:5:12: executing "_error.html" at <.content>: invalid value; expected string
+2017/06/18 21:25:58 [C] [asm_amd64.s:472] c:/go/src/runtime/asm_amd64.s:472
+2017/06/18 21:25:58 [C] [asm_amd64.s:472] c:/go/src/runtime/panic.go:426
+2017/06/18 21:25:58 [C] [asm_amd64.s:472] E:/golang/src/github.com/astaxie/beego/error.go:469
+2017/06/18 21:25:58 [C] [asm_amd64.s:472] E:/golang/src/github.com/astaxie/beego/error.go:432
+2017/06/18 21:25:58 [C] [asm_amd64.s:472] E:/golang/src/github.com/astaxie/beego/router.go:716
+2017/06/18 21:25:58 [C] [asm_amd64.s:472] C:/Go/src/net/http/server.go:2017
+2017/06/18 21:25:58 [C] [asm_amd64.s:472] C:/Go/src/net/http/server.go:1464
+2017/06/18 21:25:58 [C] [asm_amd64.s:472] c:/go/src/runtime/asm_amd64.s:1998
+2017/06/18 21:25:58 [D] [controller.go:256] template Execute err: template: _error.html:5:12: executing "_error.html" at <.content>: invalid value; expected string
+2017/06/18 21:25:58 [C] [asm_amd64.s:472] the request url is  /static/js/example.js
+2017/06/18 21:25:58 [C] [asm_amd64.s:472] Handler crashed with error template: _error.html:5:12: executing "_error.html" at <.content>: invalid value; expected string
+2017/06/18 21:25:58 [C] [asm_amd64.s:472] c:/go/src/runtime/asm_amd64.s:472
+2017/06/18 21:25:58 [C] [asm_amd64.s:472] c:/go/src/runtime/panic.go:426
+2017/06/18 21:25:58 [C] [asm_amd64.s:472] E:/golang/src/github.com/astaxie/beego/error.go:469
+2017/06/18 21:25:58 [C] [asm_amd64.s:472] E:/golang/src/github.com/astaxie/beego/error.go:432
+2017/06/18 21:25:58 [C] [asm_amd64.s:472] E:/golang/src/github.com/astaxie/beego/router.go:716
+2017/06/18 21:25:58 [C] [asm_amd64.s:472] C:/Go/src/net/http/server.go:2017
+2017/06/18 21:25:58 [C] [asm_amd64.s:472] C:/Go/src/net/http/server.go:1464
+2017/06/18 21:25:58 [C] [asm_amd64.s:472] c:/go/src/runtime/asm_amd64.s:1998
+2017/06/18 22:01:47 [D] [controller.go:256] template Execute err: template: _error.html:5:12: executing "_error.html" at <.content>: invalid value; expected string
+2017/06/18 22:01:47 [C] [asm_amd64.s:472] the request url is  /static/css/weui.css
+2017/06/18 22:01:47 [C] [asm_amd64.s:472] Handler crashed with error template: _error.html:5:12: executing "_error.html" at <.content>: invalid value; expected string
+2017/06/18 22:01:47 [C] [asm_amd64.s:472] c:/go/src/runtime/asm_amd64.s:472
+2017/06/18 22:01:47 [C] [asm_amd64.s:472] c:/go/src/runtime/panic.go:426
+2017/06/18 22:01:47 [C] [asm_amd64.s:472] E:/golang/src/github.com/astaxie/beego/error.go:469
+2017/06/18 22:01:47 [C] [asm_amd64.s:472] E:/golang/src/github.com/astaxie/beego/error.go:432
+2017/06/18 22:01:47 [C] [asm_amd64.s:472] E:/golang/src/github.com/astaxie/beego/router.go:716
+2017/06/18 22:01:47 [C] [asm_amd64.s:472] C:/Go/src/net/http/server.go:2017
+2017/06/18 22:01:47 [C] [asm_amd64.s:472] C:/Go/src/net/http/server.go:1464
+2017/06/18 22:01:47 [C] [asm_amd64.s:472] c:/go/src/runtime/asm_amd64.s:1998
+2017/06/18 22:01:47 [D] [controller.go:256] template Execute err: template: _error.html:5:12: executing "_error.html" at <.content>: invalid value; expected string
+2017/06/18 22:01:47 [C] [asm_amd64.s:472] the request url is  /static/js/example.js
+2017/06/18 22:01:47 [C] [asm_amd64.s:472] Handler crashed with error template: _error.html:5:12: executing "_error.html" at <.content>: invalid value; expected string
+2017/06/18 22:01:47 [C] [asm_amd64.s:472] c:/go/src/runtime/asm_amd64.s:472
+2017/06/18 22:01:47 [C] [asm_amd64.s:472] c:/go/src/runtime/panic.go:426
+2017/06/18 22:01:47 [C] [asm_amd64.s:472] E:/golang/src/github.com/astaxie/beego/error.go:469
+2017/06/18 22:01:47 [C] [asm_amd64.s:472] E:/golang/src/github.com/astaxie/beego/error.go:432
+2017/06/18 22:01:47 [C] [asm_amd64.s:472] E:/golang/src/github.com/astaxie/beego/router.go:716
+2017/06/18 22:01:47 [C] [asm_amd64.s:472] C:/Go/src/net/http/server.go:2017
+2017/06/18 22:01:47 [C] [asm_amd64.s:472] C:/Go/src/net/http/server.go:1464
+2017/06/18 22:01:47 [C] [asm_amd64.s:472] c:/go/src/runtime/asm_amd64.s:1998
+2017/06/18 22:01:47 [D] [controller.go:256] template Execute err: template: _error.html:5:12: executing "_error.html" at <.content>: invalid value; expected string
+2017/06/18 22:01:47 [C] [asm_amd64.s:472] the request url is  /static/js/zepto.min.js
+2017/06/18 22:01:47 [C] [asm_amd64.s:472] Handler crashed with error template: _error.html:5:12: executing "_error.html" at <.content>: invalid value; expected string
+2017/06/18 22:01:47 [C] [asm_amd64.s:472] c:/go/src/runtime/asm_amd64.s:472
+2017/06/18 22:01:47 [C] [asm_amd64.s:472] c:/go/src/runtime/panic.go:426
+2017/06/18 22:01:47 [C] [asm_amd64.s:472] E:/golang/src/github.com/astaxie/beego/error.go:469
+2017/06/18 22:01:47 [C] [asm_amd64.s:472] E:/golang/src/github.com/astaxie/beego/error.go:432
+2017/06/18 22:01:47 [C] [asm_amd64.s:472] E:/golang/src/github.com/astaxie/beego/router.go:716
+2017/06/18 22:01:47 [C] [asm_amd64.s:472] C:/Go/src/net/http/server.go:2017
+2017/06/18 22:01:47 [C] [asm_amd64.s:472] C:/Go/src/net/http/server.go:1464
+2017/06/18 22:01:47 [C] [asm_amd64.s:472] c:/go/src/runtime/asm_amd64.s:1998
+2017/06/18 22:01:47 [D] [controller.go:256] template Execute err: template: _error.html:5:12: executing "_error.html" at <.content>: invalid value; expected string
+2017/06/18 22:01:47 [C] [asm_amd64.s:472] the request url is  /static/js/example.js
+2017/06/18 22:01:47 [C] [asm_amd64.s:472] Handler crashed with error template: _error.html:5:12: executing "_error.html" at <.content>: invalid value; expected string
+2017/06/18 22:01:47 [C] [asm_amd64.s:472] c:/go/src/runtime/asm_amd64.s:472
+2017/06/18 22:01:47 [C] [asm_amd64.s:472] c:/go/src/runtime/panic.go:426
+2017/06/18 22:01:47 [C] [asm_amd64.s:472] E:/golang/src/github.com/astaxie/beego/error.go:469
+2017/06/18 22:01:47 [C] [asm_amd64.s:472] E:/golang/src/github.com/astaxie/beego/error.go:432
+2017/06/18 22:01:47 [C] [asm_amd64.s:472] E:/golang/src/github.com/astaxie/beego/router.go:716
+2017/06/18 22:01:47 [C] [asm_amd64.s:472] C:/Go/src/net/http/server.go:2017
+2017/06/18 22:01:47 [C] [asm_amd64.s:472] C:/Go/src/net/http/server.go:1464
+2017/06/18 22:01:47 [C] [asm_amd64.s:472] c:/go/src/runtime/asm_amd64.s:1998
